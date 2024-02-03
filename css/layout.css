@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css");
+@import url("https://cdn.jsdelivr.net/font-nanum/1.0/nanumgothic/nanumgothic.css");
+@import url("https://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css");
+
+html, body {height: 100%;}
+body {margin: 0;font-family: "Nanum Barun Gothic", sans-serif;color: #333;font-size: 15px;font-weight: 400;line-height: 1.5; }
+
+ul, li {list-style-type: none;padding: 0;margin: 0;}
+
+nav {width: 100%;background: #3d19b1;}
+nav .nav_wrap {position: relative;max-width: 1280px;margin: 0 auto;padding: 25px 20px 25px 160px;transition: 0.5s;}
+nav .nav_wrap .navbar_brand {position: absolute;left: 20px;top: 14px;transition: 0.5s;}
+nav .nav_wrap .navbar_brand img {width: 55px;transition: 0.5s;}
+nav .nav_wrap .navbar_toggler {position: absolute;display: none;right: 15px;top: 15px;background: none;border: 0;}
+nav .nav_wrap .navbar_toggler span {display: block;height: 2px;width: 25px;margin: 5px 0;background: #fff;}
+nav .nav_wrap .navbar_collase::after {clear: both;content: "";display: block;}
+nav .nav_wrap .navbar_collase .navbar_nav {float: left;font-size: 16px;}
+nav .nav_wrap .navbar_collase .navbar_nav li {display: inline-block;padding: 0 40px;}
+nav .nav_wrap .navbar_collase .navbar_nav li a {color: #fff;text-decoration: none;font-family: "Lato", sans-serif;}
+nav .nav_wrap .navbar_collase .nav_etc {float: right;border: 1px solid #ff8c2f;}
+nav .nav_wrap .navbar_collase .nav_etc img {background: #ff8c2f;border: 11px solid #ff8c2f;}
+nav .nav_wrap .navbar_collase .nav_etc a {display: inline-block;padding: 0 10px;color: #ff8c2f;font-size: 11px;z-index: 999999;}
+
+#wrapper{max-width: 1280px;width: 100%;margin: 0 auto;}
+#container_wr{zoom: 1;}
+#container{width: 100%;float: none;}
+
+.area_tit {max-width: 820px;margin: 70px auto;padding: 0;display: flex;align-items: center;justify-content: center;flex-flow: column;}
+.area_tit p{margin:30px;}
+.area_tit .tit {font-family: "Lato", sans-serif;line-height: 33px;font-size: 30px;font-weight: 900;color: #3d19b1;letter-spacing: 15.5px;display: block;margin: 15px;}
+.area_tit .tit::before {position: absolute;left: calc(50% - 15px);top: -23px;content: "";width: 30px;height: 2px;background: #3d19b1;}
+.area_tit .tit .point {color: #ff8c2f;}
+.area_tit .info{position: relative;margin-right: 45px;margin-top: 0px;}
+
+/* MQ STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (max-width: 767px) {.scroll-icon {  display: none;}}/*# sourceMappingURL=page.css.map */
