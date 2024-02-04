@@ -667,6 +667,9 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
   }
 }
 @media (max-width: 520px) {
+  #hero .hero .slick-list {
+    padding-top: 18rem;
+  }
   #hero .slick-dots {
     top: 3rem;
   }

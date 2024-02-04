@@ -248,6 +248,7 @@ body:not(.fp-viewing-heroS) {
 }
 @media (max-width: 520px) {  
   #hero {
+    .hero .slick-list{padding-top: 18rem;}
     .slick-dots{top:3rem;
       li{font-size: 4rem;line-height: 4.5rem;}
     }
