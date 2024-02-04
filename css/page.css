@@ -288,49 +288,49 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
   transition-delay: 0.3s;
 }
 #hero .idea .allidea li .idea01 .dis {
-  background-image: url(../img/portfolio/promotion/2.jpg);
+  background-image: url(../img/idea/1.jpg);
 }
 #hero .idea .allidea li .idea02 {
   transition-delay: 0.9s;
 }
 #hero .idea .allidea li .idea02 .dis {
-  background-image: url(../img/portfolio/menu/1.jpg);
+  background-image: url(../img/idea/2.jpg);
 }
 #hero .idea .allidea li .idea03 {
   transition-delay: 0.6s;
 }
 #hero .idea .allidea li .idea03 .dis {
-  background-image: url(../img/portfolio/nh/2.jpg);
+  background-image: url(../img/idea/3.jpg);
 }
 #hero .idea .allidea li .idea04 {
   transition-delay: 0.9s;
 }
 #hero .idea .allidea li .idea04 .dis {
-  background-image: url(../img/portfolio/nh/1.jpg);
+  background-image: url(../img/idea/4.jpg);
 }
 #hero .idea .allidea li .idea05 {
   transition-delay: 0s;
 }
 #hero .idea .allidea li .idea05 .dis {
-  background-image: url(../img/portfolio/menu/1.jpg);
+  background-image: url(../img/idea/2.jpg);
 }
 #hero .idea .allidea li .idea06 {
   transition-delay: 0.9s;
 }
 #hero .idea .allidea li .idea06 .dis {
-  background-image: url(../img/portfolio/menutem/2.jpg);
+  background-image: url(../img/idea/6.jpg);
 }
 #hero .idea .allidea li .idea07 {
   transition-delay: 0.6s;
 }
 #hero .idea .allidea li .idea07 .dis {
-  background-image: url(../img/portfolio/uchef/3.jpg);
+  background-image: url(../img/idea/7.jpg);
 }
 #hero .idea .allidea li .idea08 {
   transition-delay: 0.9s;
 }
 #hero .idea .allidea li .idea08 .dis {
-  background-image: url(../img/portfolio/nh/1.jpg);
+  background-image: url(../img/idea/4.jpg);
 }
 #hero .idea .allidea li:nth-child(1) {
   margin-top: 11rem;
@@ -370,7 +370,7 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
   transition-delay: 0s;
 }
 #hero .design .alldesign .design01 .dis {
-  background-image: url(../img/portfolio/main/3.jpg);
+  background-image: url(../img/design/3.jpg);
   background-size: 100% 100%;
   box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.1098039216) inset;
 }
@@ -389,14 +389,14 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
   top: 6.2rem;
   left: -12rem;
   transition-delay: 0.4s;
-  background-image: url(../img/portfolio/main/2.jpg);
+  background-image: url(../img/design/2.jpg);
   background-size: 100% 100%;
 }
 #hero .design .alldesign .design03.dis {
   top: 9.5rem;
   left: -23.5rem;
   transition-delay: 0.8s;
-  background-image: url(../img/portfolio/main/1.jpg);
+  background-image: url(../img/design/1.jpg);
   background-size: 100% 100%;
 }
 #hero .code {
@@ -564,8 +564,6 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
 }
 #hero .slick-dots li:nth-child(1).slick-active .summary {
   background: linear-gradient(to right, #6e4ceb, #ff8c2f);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 #hero .slick-dots li:nth-child(1).slick-active .ico {
   background-image: url(../img/idea_icon_on.png);
@@ -580,8 +578,6 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
 }
 #hero .slick-dots li:nth-child(2).slick-active .summary {
   background: linear-gradient(to right, #6e4ceb, #55faaf);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 #hero .slick-dots li:nth-child(2).slick-active .ico {
   background-image: url(../img/design_icon_on.png);
@@ -596,8 +592,6 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
 }
 #hero .slick-dots li:nth-child(3).slick-active .summary {
   background: linear-gradient(to right, #6e4ceb, #f1f965);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 #hero .slick-dots li:nth-child(3).slick-active .ico {
   background-image: url(../img/code_icon_on.png);

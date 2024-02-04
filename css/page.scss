@@ -221,7 +221,7 @@ body:not(.fp-viewing-heroS) {
     &::after,
     &::before{display: block; content: "";position: absolute;top: 1.7rem;left: 27.1rem;background: #4214b9;height: 27.6rem;width: 3rem;border-radius: 5rem;transform: rotate(12deg);}
     &::before{width: 2rem;box-shadow: -1.4rem 0 4rem rgba(0, 0, 0, 0.3);}
-  }  
+  } 
 }
 @media (max-width: 1300px) {
   #hero .slick-dots{height: 33rem;width:87%;
