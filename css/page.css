@@ -564,6 +564,8 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
 }
 #hero .slick-dots li:nth-child(1).slick-active .summary {
   background: linear-gradient(to right, #6e4ceb, #ff8c2f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #hero .slick-dots li:nth-child(1).slick-active .ico {
   background-image: url(../img/idea_icon_on.png);
@@ -578,6 +580,8 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
 }
 #hero .slick-dots li:nth-child(2).slick-active .summary {
   background: linear-gradient(to right, #6e4ceb, #55faaf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #hero .slick-dots li:nth-child(2).slick-active .ico {
   background-image: url(../img/design_icon_on.png);
@@ -592,6 +596,8 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
 }
 #hero .slick-dots li:nth-child(3).slick-active .summary {
   background: linear-gradient(to right, #6e4ceb, #f1f965);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #hero .slick-dots li:nth-child(3).slick-active .ico {
   background-image: url(../img/code_icon_on.png);
