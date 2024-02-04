@@ -202,19 +202,19 @@ body:not(.fp-viewing-heroS) {
       &:nth-child(1){
         .keyword {color: #ff8c2f;}
         .ico{background-image: url(../img/idea_icon.png);}
-        &.slick-active .summary {  background: linear-gradient(to right, #6e4ceb, #ff8c2f);-webkit-background-clip: text;  -webkit-text-fill-color: transparent;}
+        &.slick-active .summary {  background: linear-gradient(to right, #6e4ceb, #ff8c2f);}
         &.slick-active .ico {background-image: url(../img/idea_icon_on.png);}
       } 
       &:nth-child(2){
         .keyword {color: #55faaf;margin-left: 1.5rem;}
         .ico {left: 13rem;  background-image: url(../img/design_icon.png);}
-        &.slick-active .summary {  background: linear-gradient(to right, #6e4ceb, #55faaf);-webkit-background-clip: text;  -webkit-text-fill-color: transparent;}
+        &.slick-active .summary {  background: linear-gradient(to right, #6e4ceb, #55faaf);}
         &.slick-active .ico {background-image: url(../img/design_icon_on.png);}
       }
       &:nth-child(3){
         .keyword {color: #f1f965;margin-left: 2.5rem;}
         .ico {left: 26rem;background-image: url(../img/code_icon.png);}
-        &.slick-active .summary {background: linear-gradient(to right, #6e4ceb, #f1f965);-webkit-background-clip: text;  -webkit-text-fill-color: transparent;}
+        &.slick-active .summary {background: linear-gradient(to right, #6e4ceb, #f1f965);}
         &.slick-active .ico {background-image: url(../img/code_icon_on.png);}
       }  
     }
