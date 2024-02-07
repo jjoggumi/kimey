@@ -685,18 +685,18 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
     margin: 1rem 0.5rem;
   }
   #hero .idea .allidea li > div {
-    width: 120px;
-    height: 240px;
-    margin: 14px 7px;
+    width: 12rem;
+    height: 24rem;
+    margin: 1.4rem 0.7rem;
   }
   #hero .idea .allidea li:nth-child(1) {
-    margin-top: 61px;
+    margin-top: 6.1rem;
   }
   #hero .idea .allidea li:nth-child(2) {
-    margin-top: 106px;
+    margin-top: 10.6rem;
   }
   #hero .idea .allidea li:nth-child(4) {
-    margin-top: 62px;
+    margin-top: 6.2rem;
   }
   #hero .code .allcode {
     left: 1.5rem;
@@ -821,11 +821,11 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
 }
 @media (max-width: 767px) {
   #about .area_img {
-    width: 250px;
-    height: 250px;
+    width: 25rem;
+    height: 25rem;
     left: auto;
-    top: calc(50% - 130px);
-    right: calc(50% + 125px);
+    top: calc(50% - 13rem);
+    right: calc(50% + 12.5rem);
     background-size: 100%;
     opacity: 1;
     transform: translateX(0);
@@ -1000,7 +1000,7 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
     font-size: 2.5rem;
   }
   #history .area_history > ul > li .project_wrap .project li:not(.name) {
-    font-size: 13px;
+    font-size: 1.3rem;
   }
 }
 @media (max-width: 1200px) {
@@ -1240,7 +1240,7 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
 #portfolio .area_portfolio .txtArea .work li.tit {
   font-size: 1.6rem;
   color: #fff;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
 }
 
 #contact .fp-tableCell {
@@ -1342,8 +1342,8 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
   width: auto;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border-radius: 0.6rem;
+  box-shadow: 0 0.3rem 0.9rem rgba(0, 0, 0, 0.5);
   outline: 0;
 }
 
@@ -1368,12 +1368,12 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
 }
 
 .modal-header {
-  padding: 15px;
+  padding: 1.5rem;
   border-bottom: 1px solid #e5e5e5;
 }
 
 .modal-header .close {
-  margin-top: -2px;
+  margin-top: -0.2rem;
 }
 
 .modal-title {
@@ -1383,18 +1383,18 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
 
 .modal-body {
   position: relative;
-  padding: 15px;
+  padding: 1.5rem;
 }
 
 .modal-footer {
-  padding: 15px;
+  padding: 1.5rem;
   text-align: right;
   border-top: 1px solid #e5e5e5;
 }
 
 .modal-footer .btn + .btn {
   margin-bottom: 0;
-  margin-left: 5px;
+  margin-left: 0.5rem;
 }
 
 .modal-footer .btn-group .btn + .btn {
@@ -1408,26 +1408,26 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
   overflow: scroll;
 }
 
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 600px;
-    margin: 30px auto;
+    width: 60rem;
+    margin: 3rem auto;
   }
   .modal-content {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
   }
   .modal-sm {
-    width: 300px;
+    width: 30rem;
   }
 }
 @media (min-width: 992px) {
   .modal-lg {
-    width: 900px;
+    width: 90rem;
   }
 }
 /*# sourceMappingURL=page.css.map */
