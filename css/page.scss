@@ -52,6 +52,7 @@ nav {
   padding: 5rem 2rem;
   transition: 0.5s;
   .navBrand {padding-left: 0;transition: 0.5s;
+    a{display:flex;}
     img {width: 6.6rem;transition: 0.5s;}
   }
   .navWrap {display: flex;flex-grow: 1;}
@@ -102,7 +103,11 @@ body:not(.fp-viewing-heroS) {
 }
 
 .section {position: relative;height: 100%;
-  .fp-overflow {padding-top: 8.4rem;height: 100%;display: flex;justify-content: center;align-items: center;}
+  .fp-overflow {padding-top: 8.4rem;height: 100%;display: flex;justify-content: center;align-items: center; }
+  @media (max-width: 520px) {
+    .fp-overflow {padding-top: 6.4rem;}
+  }
+
 }
 
 #hero {overflow: hidden; background-image: linear-gradient(to top right, var(--main-color), #5402d3);
@@ -401,10 +406,10 @@ body:not(.fp-viewing-heroS) {
   .area_txt .tit {font-family:var(--font-tit);line-height: 3.3rem;font-size: 3rem;font-weight: 900;color: var(--main-color);color: #6e4ceb;letter-spacing: 1.4rem;text-align: center;
     .point {color: #f1f965;}
   }
-  .year_btn {border-bottom: 1px solid #6e4ceb;width: 95%;max-width: 71rem;padding: 4.5rem 0 1.2rem;margin: 0 auto 9rem;text-align: center;
-    button {position: relative;display: inline-block;width: 16%;color: #6e4ceb;text-decoration: none;background: transparent;border: 0;font-size: 1.5rem;
+  .year_btn {display: flex;justify-content: center; align-items: center;flex-wrap: wrap; border-bottom: 1px solid #6e4ceb;width: 95%;max-width: 71rem;padding: 4.5rem 0 1.2rem;margin: 0 auto 9rem;
+    button {position: relative;display: inline-block;width: 16%;line-height: 3rem;color: #6e4ceb;text-decoration: none;background: transparent;border: 0;font-size: 1.5rem;
       &.active {color: #f1f965;}
-      &::before {content: "";display: block;width: 1rem;height: 1rem;border-radius: 50%;background: #6e4ceb;position: absolute;bottom: -2rem;left: calc(50% - 0.5rem);}
+      &::before {content: "";display: block;width: 1rem;height: 1rem;border-radius: 50%;background: #6e4ceb;position: absolute;bottom: -1.7rem;left: calc(50% - 0.5rem);}
       &.active::before {background: #f1f965;}
     }
   }
@@ -435,6 +440,17 @@ body:not(.fp-viewing-heroS) {
       .project {font-size: 1.8rem;font-weight: 600;font-family: var(--font-body);margin-top: 1.3rem;}
       .work {font-size: 1.3rem;color: rgba(255, 255, 255, 0.6);}
       .work li.tit {font-size: 1.6rem;color: #fff;margin-bottom: 0.5rem;}
+    }
+  }
+}
+@media (max-width: 520px) {
+  #portfolio {
+    .area_txt .tit {margin-top:0;}
+    .year_btn{border: 0;margin-bottom:3rem;
+      button{width: 30%;margin: 1%;background: #6e4ceb;border-radius: 5px;color: #fff;
+        &.active{background: #f1f965;color: #6e4ceb;font-weight: 600;}
+        &::before{display:none;}
+      }
     }
   }
 }
