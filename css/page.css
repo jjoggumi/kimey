@@ -187,11 +187,11 @@ body:not(.fp-viewing-heroS) nav .navBrand img {
     display: none;
   }
 }
-section {
+.section {
   position: relative;
   height: 100%;
 }
-section .fp-overflow {
+.section .fp-overflow {
   padding-top: 8.4rem;
   height: 100%;
   display: flex;
@@ -199,7 +199,7 @@ section .fp-overflow {
   align-items: center;
 }
 @media (max-width: 520px) {
-  section .fp-overflow {
+  .section .fp-overflow {
     padding-top: 6.4rem;
   }
 }
