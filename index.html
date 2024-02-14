@@ -9,13 +9,18 @@
     <link rel="shortcut icon" type="text/css" href="./img/favicon.ico">
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="./css/slick.css">
-    <link rel="stylesheet" type="text/css" href="./css/page.css">     
+    <link rel="stylesheet" type="text/css" href="./css/page.css"> 
+    <!-- js -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="https://unpkg.com/fullpage.js/dist/fullpage.min.js"></script>
+    <script src="./js/common.js"></script>    
 </head>
 <!-- body begin -->
 <body>
     <header>
         <nav>
-            <div class="navBrand"><a href="#heroS"><img src="./img/logo.png " /></a></div>
+            <div class="navBrand"><a href="#heroS"><img src="./img/logo.png "  alt="kimey"/></a></div>
             <div class="navWrap">
                 <ul class="navBar">
                     <li class="scroll"><a href="#aboutS">About</a></li>
@@ -37,7 +42,7 @@
     </header>
     <!-- main begin -->
     <article id="fullpage">
-        <section class="section" id="hero">
+        <div class="section" id="hero">
             <div class="main_hero_bg"></div>
             <div class="hero">
                 <div class="idea">
@@ -90,8 +95,8 @@
                     </div>
                 </div>
             </div>            
-        </section>
-        <section class="section" id="about">
+        </div>
+        <div class="section" id="about">
             <div class="area_img">
 
             </div>
@@ -111,8 +116,8 @@
                     그리고 이 모든것은 고객과의 높은 수준의 상호작용으로 이루어집니다. 
                 </div>
             </div>  
-        </section>
-        <section class="section" id="history">
+        </div>
+        <div class="section" id="history">
            <div class="area_txt">
                 <div class="tit">
                     <span class="tit1">
@@ -245,8 +250,8 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        <section class="section" id="portfolio">
+        </div>
+        <div class="section" id="portfolio">
             <div class="area_txt">
                 <p class="tit">
                     P<span class="point">O</span>RT<span class="point">F</span>OLI<span class="point">O</span>
@@ -254,12 +259,12 @@
             </div>
 
             <div class="year_btn tab">
-                <button class="tablinks active" data-target="p2023">2023~</button></li>
-                <button class="tablinks" data-target="p2021">2022~</button></li>
-                <button class="tablinks" data-target="p2020">2020~</button></li>
-                <button class="tablinks" data-target="p2019">2019~</button></li>
-                <button class="tablinks" data-target="p2017">2017~</button></li>
-                <button class="tablinks" data-target="p2016">2016~</button></li>  
+                <button class="tablinks active" data-target="p2023">2023~</button>
+                <button class="tablinks" data-target="p2021">2022~</button>
+                <button class="tablinks" data-target="p2020">2020~</button>
+                <button class="tablinks" data-target="p2019">2019~</button>
+                <button class="tablinks" data-target="p2017">2017~</button>
+                <button class="tablinks" data-target="p2016">2016~</button>  
             </div>   
             <div class="area_portfolio tabCon" >
                 <div id="p2023" class="tabcontent active">   
@@ -352,7 +357,7 @@
                     <div><img src="./img/portfolio/goit/fmis2_thumb.jpg" alt="">
                         <div class="txtArea">
                             <p class="host">한국식품산업클러스터진흥원</p>
-                            <p class="project">기능성 농식품자원 통합DB <br />운영 및 기능 개선</p>
+                            <p class="project">기능성 농식품자원 통합DB <br>운영 및 기능 개선</p>
                             <ul class="work">
                                 <li class="tit">[기능성농식품자원정보서비스]</li> 
                                 <li>리디자인 및 퍼블</li>
@@ -392,7 +397,7 @@
                     <div><img src="./img/portfolio/goit/senior_thumb.jpg" alt="">
                         <div class="txtArea">
                             <p class="host">한국식품산업클러스터진흥원</p>
-                            <p class="project">고령친화식품산업지원센터 <br />홈페이지 및 콘텐츠 제작</p>
+                            <p class="project">고령친화식품산업지원센터 <br>홈페이지 및 콘텐츠 제작</p>
                             <ul class="work">
                                 <li class="tit">[고령친화산업지원센터]</li> 
                                 <li>디자인 및 퍼블</li>
@@ -405,7 +410,7 @@
                     <div><img src="./img/portfolio/goit/fta1_thumb.jpg" alt="">
                         <div class="txtArea">
                             <p class="host">농림수산식품교육문화정보원</p>
-                            <p class="project">농식품 해외정보공유서비스 <br />운영 및 기능개선</p>
+                            <p class="project">농식품 해외정보공유서비스 <br>운영 및 기능개선</p>
                             <ul class="work">
                                 <li class="tit">[농기자재 수출정보 서비스]</li> 
                                 <li>디자인 및 퍼블</li>
@@ -417,7 +422,7 @@
                     <div><img src="./img/portfolio/goit/fta2_thumb.jpg" alt="">
                         <div class="txtArea">
                             <p class="host">농림수산식품교육문화정보원</p>
-                            <p class="project">농식품 FTA활용정보서비스 <br />구축</p>
+                            <p class="project">농식품 FTA활용정보서비스 <br>구축</p>
                             <ul class="work">
                                 <li class="tit">[농식품 FTA활용정보서비스]</li> 
                                 <li>디자인 및 퍼블</li>
@@ -429,7 +434,7 @@
                     <div><img src="./img/portfolio/goit/marinaAdmin_thumb.jpg" alt="">
                         <div class="txtArea">
                             <p class="host">해양수산부</p>
-                            <p class="project">마리나정보화시스템 <br />운영 및 기능개선</p>
+                            <p class="project">마리나정보화시스템 <br>운영 및 기능개선</p>
                             <ul class="work">
                                 <li class="tit">마리나행정처리시스템</li> 
                                 <li>디자인 및 퍼블</li>
@@ -440,7 +445,7 @@
                     <div><img src="./img/portfolio/goit/fmis_thumb.jpg" alt="">
                         <div class="txtArea">
                             <p class="host">한국식품산업클러스터진흥원</p>
-                            <p class="project">기능성 농식품자원 통합DB <br />운영 및 기능 개선</p>
+                            <p class="project">기능성 농식품자원 통합DB <br>운영 및 기능 개선</p>
                             <ul class="work">
                                 <li class="tit">[기능성농식품자원정보서비스]</li> 
                                 <li>디자인 및 퍼블</li>
@@ -700,10 +705,9 @@
                     <div><img src="./img/portfolio/dishine/21.jpg" alt=""></div>
                     <div><img src="./img/portfolio/dishine/22.jpg" alt=""></div>
                 </div>
-            </div>
-            
-        </section>
-        <section class="section" id="contact">
+            </div>            
+        </div>
+        <div class="section" id="contact">
             <div class="area_txt">
                 <p class="tit"> CO<span class="point">N</span>TAC<span class="point">T</span></p>
                 <div class="info">
@@ -714,15 +718,9 @@
                     </ul>
                 </div>
             </div>
-        </section>
+        </div>
     </article>
     <!-- main end -->
 </body>
 <!-- body end -->
-
-<!-- js -->
-<script src="./js/jquery.min.js"></script>
-<script src="./js/slick.min.js"></script>
-<script src="https://unpkg.com/fullpage.js/dist/fullpage.min.js"></script>
-<script src="./js/common.js"></script>
 </html>
